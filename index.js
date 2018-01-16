@@ -45,5 +45,6 @@ console.log(prependKitten(kittens, "Arnold"));
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeLastKitten() {
-  kittens.
+  return(kittens.slice(0, 1));
 }
+console.log(removeLastKitten());
