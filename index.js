@@ -48,3 +48,9 @@ function removeLastKitten() {
   return(kittens.slice(0, 2));
 }
 console.log(removeLastKitten());
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function removeFirstKitten() {
+  return(kittens.splice(0, 1));
+}
+console.log(removeFirstKitten());
