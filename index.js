@@ -44,4 +44,6 @@ function prependKitten(array, element) {
 console.log(prependKitten(kittens, "Arnold"));
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
-function
+function removeLastKitten() {
+  kittens.
+}
