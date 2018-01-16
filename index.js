@@ -51,6 +51,6 @@ console.log(removeLastKitten());
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeFirstKitten() {
-  return(kittens.splice(0, 1));
+  return(kittens.splice(1, 1));
 }
 console.log(removeFirstKitten());
